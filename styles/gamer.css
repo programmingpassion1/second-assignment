@@ -52,3 +52,18 @@
 .fa-brands{
     margin-left: 5px;
 }
+
+
+/* Responsive design for different devices */
+/* media query for navigation section */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        display: grid;
+        margin: 0;
+        padding: 15px;
+    } 
+    
+    .nav-menu ul{
+        display: grid;
+    }
+}
